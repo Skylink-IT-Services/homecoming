@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1d922e42-737e-43dd-b652-0df0efa889f2": {
+      "ProjectGuid": "1d922e42-737e-43dd-b652-0df0efa889f2",
+      "DisplayName": "homecoming.webapp",
+      "ColorIndex": 0
+    },
+    "8ac3d825-cf51-4a7d-b3a8-52e406da37d9": {
+      "ProjectGuid": "8ac3d825-cf51-4a7d-b3a8-52e406da37d9",
+      "DisplayName": "homecoming.api",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
