@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using homecoming.api.Model.IdentityModel;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace homecoming.api.Model
 {
-    public class HomecomingDbContext:DbContext
+    public class HomecomingDbContext:IdentityDbContext<ApplicationUser>
     {
         public HomecomingDbContext( DbContextOptions<HomecomingDbContext> options) : base(options)
         {

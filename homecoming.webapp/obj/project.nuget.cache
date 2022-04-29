@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bsdT83ZM8LY0/zplXHkuWZW8eHeWSF+yc9QHnkGsE5lgjIhXlFSMZ7s7GGT/dfoPv67Au9e2fhPDPIgv/xqtEw==",
+  "dgSpecHash": "yRhsuVNKblMSzRxUxkNuY1lxP8dW2z8jxuWAz7DIEoLsi7vZ+n3x0zJ1aRrMT6WKvhh75mXYynz5QlBIbZrjHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\codeD\\Desktop\\Software Engineering Project\\homecoming.com\\homecoming.webapp\\homecoming.webapp.csproj",
+  "projectFilePath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.webapp\\homecoming.webapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\codeD\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\codeD\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.17\\microsoft.aspnetcore.cryptography.internal.3.1.17.nupkg.sha512",

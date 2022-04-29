@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace homecoming.api.Model.IdentityModel
 {
-    public class UserRegister
+    public class Response
     {
+        public string Status { get; set; }
+        public string Message { get; set; }
     }
 }
