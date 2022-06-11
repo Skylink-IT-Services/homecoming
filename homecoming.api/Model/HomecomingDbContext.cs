@@ -11,6 +11,7 @@ namespace homecoming.api.Model
         {
 
         }
+       
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Business> Businesses { get; set; }
         public DbSet<Accomodation> Accomodations { get; set; }

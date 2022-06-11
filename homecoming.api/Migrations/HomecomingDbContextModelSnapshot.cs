@@ -207,9 +207,6 @@ namespace homecoming.api.Migrations
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
-                    b.Property<int>("NoOfDaysBooked")
-                        .HasColumnType("int");
-
                     b.Property<int>("NoOfOccupants")
                         .HasColumnType("int");
 
@@ -610,7 +607,7 @@ namespace homecoming.api.Migrations
             modelBuilder.Entity("homecoming.api.Model.Accomodation", b =>
                 {
                     b.HasOne("homecoming.api.Model.Business", "Business")
-                        .WithMany()
+                        .WithMany("GetAccomodations")
                         .HasForeignKey("BusinessId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
@@ -678,7 +675,7 @@ namespace homecoming.api.Migrations
             modelBuilder.Entity("homecoming.api.Model.Room", b =>
                 {
                     b.HasOne("homecoming.api.Model.Accomodation", "Accomodation")
-                        .WithMany()
+                        .WithMany("AccomodationRooms")
                         .HasForeignKey("AccomodationId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
@@ -708,6 +705,13 @@ namespace homecoming.api.Migrations
             modelBuilder.Entity("homecoming.api.Model.Accomodation", b =>
                 {
                     b.Navigation("AccomodationGallary");
+
+                    b.Navigation("AccomodationRooms");
+                });
+
+            modelBuilder.Entity("homecoming.api.Model.Business", b =>
+                {
+                    b.Navigation("GetAccomodations");
                 });
 
             modelBuilder.Entity("homecoming.api.Model.Room", b =>

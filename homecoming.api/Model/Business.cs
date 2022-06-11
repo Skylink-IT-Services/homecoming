@@ -29,5 +29,6 @@ namespace homecoming.api.Model
         [NotMapped]
         [JsonIgnore]
         public IFormFile ImageFile { get; set; }
+        public virtual List<Accomodation> GetAccomodations { get;}
     }
 }

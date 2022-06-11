@@ -14,7 +14,7 @@ namespace homecoming.api.Controllers
     [Route("/api/[controller]")]
     public class BusinessController : Controller
     {
-        IDataStore<Business> repo;
+        IRepository<Business> repo;
         IWebHostEnvironment web;
         HomecomingDbContext db;
         public BusinessController(IWebHostEnvironment host, HomecomingDbContext cx)
@@ -55,6 +55,20 @@ namespace homecoming.api.Controllers
             else
             {
                 return BadRequest("Business with id: "+ id + " Not found");
+            }
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, Business buss)
+        {
+            if(buss != null)
+            {
+                repo.Update(id, buss);
+                return Ok("Update Successful");
+            }
+            else
+            {
+                return BadRequest("Updated failed");
             }
         }
     }

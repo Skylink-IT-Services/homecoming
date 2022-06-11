@@ -23,6 +23,7 @@ namespace homecoming.api.Model
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedOn { get; set; }
         public virtual List<ListingImage> AccomodationGallary { get; set; }
+        public virtual List<Room> AccomodationRooms { get;}
         [NotMapped]
         [JsonIgnore]
         public IFormFile CoverImage { get; set; }

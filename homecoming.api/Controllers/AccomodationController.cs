@@ -3,6 +3,7 @@ using homecoming.api.Model;
 using homecoming.api.Repo;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace homecoming.api.Controllers
 {
@@ -11,7 +12,7 @@ namespace homecoming.api.Controllers
     public class AccomodationController : Controller
     {
 
-        IDataStore<Accomodation> repo;
+        AccomodationRepo repo;
         IWebHostEnvironment web;
         HomecomingDbContext db;
         public AccomodationController(IWebHostEnvironment host, HomecomingDbContext cx)
@@ -53,5 +54,35 @@ namespace homecoming.api.Controllers
             }
         }
 
+        [HttpGet("GetByBusinessId/{id:int}")]
+        public IActionResult FindAccomodationByBusinessId(int id)
+        {
+            List<Accomodation> accomodationList = repo.GetAccomodationByBusinessId(id);
+            if(accomodationList != null)
+            {
+                return Ok(accomodationList);
+            }
+            else
+            {
+                return BadRequest("No accomodation found!");
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult RemoveAccomodation(int id)
+        {
+            repo.RemoveById(id);
+            return Ok("Item deleted");
+        }
+        [HttpPut("{id}")]
+        public IActionResult UpdateAccomodation(int id, Accomodation accom)
+        {
+            if(accom != null)
+            {
+                repo.Update(id,accom);
+                return Ok("Update Successsful");
+            }
+            else { return BadRequest("Updated Failed"); }
+        }
     }
 }

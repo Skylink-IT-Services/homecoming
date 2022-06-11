@@ -20,29 +20,53 @@ namespace homecoming.webapp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult LandingPage()
         {
-            IEnumerable<AccomodationViewModel> houses = null;
+            IEnumerable<BusinessViewModel> houses = null;
             using(var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Config.BaseUrl);
-                var response = client.GetAsync("accomodation");
+                var response = client.GetAsync("business");
+                response.Wait();
+                var result = response.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var read = result.Content.ReadAsAsync<IList<BusinessViewModel>>();
+                    read.Wait();
+                    houses = read.Result;
+                }
+                else
+                {
+                    houses = Enumerable.Empty<BusinessViewModel>();
+                    ModelState.AddModelError(string.Empty, "Server error try after some time.");
+                }
+            }
+
+            return View(houses);
+        }
+        public IActionResult AccomodationsPage(int id)
+        {
+           IEnumerable<AccomodationViewModel> accomodationList = null;
+            using(var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Config.BaseUrl);
+                var response = client.GetAsync($"accomodation/GetByBusinessId/{id}");
                 response.Wait();
                 var result = response.Result;
                 if (result.IsSuccessStatusCode)
                 {
                     var read = result.Content.ReadAsAsync<IList<AccomodationViewModel>>();
                     read.Wait();
-                    houses = read.Result;
+                    accomodationList = read.Result;
                 }
                 else
                 {
-                    houses = Enumerable.Empty<AccomodationViewModel>();
+                    accomodationList = Enumerable.Empty<AccomodationViewModel>();
                     ModelState.AddModelError(string.Empty, "Server error try after some time.");
                 }
-            }
 
-            return View(houses);
+            }
+            return View(accomodationList);
         }
 
         public IActionResult Privacy()
