@@ -3259,33 +3259,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\codeD\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/master-dev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\homecoming.api.csproj",
+      "projectUniqueName": "/mnt/c/Users/codeD/Desktop/Honours/Software Engineering Project/homecoming.com/homecoming.api/homecoming.api.csproj",
       "projectName": "homecoming.api",
-      "projectPath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\homecoming.api.csproj",
-      "packagesPath": "C:\\Users\\codeD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\obj\\",
+      "projectPath": "/mnt/c/Users/codeD/Desktop/Honours/Software Engineering Project/homecoming.com/homecoming.api/homecoming.api.csproj",
+      "packagesPath": "/home/master-dev/.nuget/packages/",
+      "outputPath": "/mnt/c/Users/codeD/Desktop/Honours/Software Engineering Project/homecoming.com/homecoming.api/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\codeD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/master-dev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3365,12 +3356,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3379,7 +3364,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   },
