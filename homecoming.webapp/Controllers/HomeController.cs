@@ -20,18 +20,17 @@ namespace homecoming.webapp.Controllers
             _logger = logger;
         }
 
-        public IActionResult LandingPage()
+        public async Task<IActionResult> LandingPage()
         {
             IEnumerable<BusinessViewModel> houses = null;
             using(var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Config.BaseUrl);
-                var response = client.GetAsync("business");
-                response.Wait();
-                var result = response.Result;
-                if (result.IsSuccessStatusCode)
+                var response = await client.GetAsync("business");
+                var result = response.Content;
+                if (response.IsSuccessStatusCode)
                 {
-                    var read = result.Content.ReadAsAsync<IList<BusinessViewModel>>();
+                    var read = result.ReadAsAsync<IList<BusinessViewModel>>();
                     read.Wait();
                     houses = read.Result;
                 }

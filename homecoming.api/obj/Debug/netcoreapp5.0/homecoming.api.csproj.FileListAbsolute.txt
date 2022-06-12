@@ -172,3 +172,4 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\ref\homecoming.api.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.pdb
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.genruntimeconfig.cache
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\aws-beanstalk-tools-defaults.json
