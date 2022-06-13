@@ -169,3 +169,8 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\Booki
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\obj\Debug\netcoreapp6.0\ref\BookingTesting.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\obj\Debug\netcoreapp6.0\BookingTesting.pdb
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\obj\Debug\netcoreapp6.0\BookingTesting.genruntimeconfig.cache
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\bin\Debug\netcoreapp6.0\Azure.Storage.Blobs.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\bin\Debug\netcoreapp6.0\Azure.Storage.Common.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\bin\Debug\netcoreapp6.0\System.IO.Hashing.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\bin\Debug\netcoreapp6.0\System.Memory.Data.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\BookingTesting\bin\Debug\netcoreapp6.0\Microsoft.WindowsAzure.Storage.dll

@@ -1,4 +1,5 @@
-﻿using homecoming.api.Abstraction;
+﻿using Azure.Storage.Blobs;
+using homecoming.api.Abstraction;
 using homecoming.api.Model;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -11,13 +12,16 @@ namespace homecoming.api.Repo
     public class AccomodationRepo:IRepository<Accomodation>
     {
         private readonly IWebHostEnvironment web;
-        IFileUpload<Accomodation> fileUpLoad;
-        HomecomingDbContext db;
-        public AccomodationRepo(IWebHostEnvironment host, HomecomingDbContext context)
+        private IFileUpload<Accomodation> fileUpLoad;
+        private HomecomingDbContext db;
+        private readonly BlobServiceClient client;
+
+        public AccomodationRepo(IWebHostEnvironment host, HomecomingDbContext context, BlobServiceClient client)
         {
             web = host;
-            fileUpLoad = new AccomodationUpload(web);
+            fileUpLoad = new AccomodationUpload(web, client);
             db = context;
+            this.client = client;
         }
 
         public void Add(Accomodation Params)
@@ -28,7 +32,7 @@ namespace homecoming.api.Repo
                 Accomodation accomodation = new Accomodation()
                 {
                     BusinessId = Params.BusinessId,
-                    CoverPhoto = fileUpLoad.FileUpload(Params.CoverImage),
+                    CoverPhoto = fileUpLoad.FileUploadAsync(Params.CoverImage),
                     AccomodationName = Params.AccomodationName,
                     Location = Params.Location,
                     Description = Params.Description,

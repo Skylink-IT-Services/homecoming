@@ -2,6 +2,6 @@
 {
     public class Config
     {
-        public static string BaseUrl { get { return "http://homecomingapi-dev.us-west-2.elasticbeanstalk.com/api/"; } }
+        public static string BaseUrl { get { return "https://cloud-api.azurewebsites.net/api/"; } }
     }
 }

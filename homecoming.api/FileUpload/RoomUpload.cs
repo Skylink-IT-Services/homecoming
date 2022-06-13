@@ -1,4 +1,5 @@
-﻿using homecoming.api.Abstraction;
+﻿using Azure.Storage.Blobs;
+using homecoming.api.Abstraction;
 using homecoming.api.Model;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -6,17 +7,21 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace homecoming.api.Repo
 {
     public class RoomUpload:IFileUpload<Room>
     {
-        IWebHostEnvironment web;
+        private IWebHostEnvironment web;
+        private readonly BlobServiceClient client;
+
         private bool IsSuccess { get; set; } = false;
 
-        public RoomUpload(IWebHostEnvironment webHost)
+        public RoomUpload(IWebHostEnvironment webHost, BlobServiceClient client)
         {
             web = webHost;
+            this.client = client;
         }
         public bool MultiFileUpload(Room objectFile)
         {
@@ -25,7 +30,7 @@ namespace homecoming.api.Repo
                 objectFile.RoomGallary = new List<RoomImage>();
                 foreach (IFormFile file in objectFile.ImageList)
                 {
-                    objectFile.RoomGallary.Add(new RoomImage { ImageUrl = FileUpload(file) });
+                    objectFile.RoomGallary.Add(new RoomImage { ImageUrl = FileUploadAsync(file) });
                 }
                 IsSuccess = true;
                 return IsSuccess;
@@ -60,6 +65,20 @@ namespace homecoming.api.Repo
                 Debug.WriteLine(si.Message);
             }
             return fileName;
+        }
+
+        public string FileUploadAsync(IFormFile file)
+        {
+            string filename = string.Empty;
+
+            filename = Guid.NewGuid().ToString() + "-" + file.FileName;
+
+            var blobContainer = client.GetBlobContainerClient("cloud-upload");
+
+            var blobClient = blobContainer.GetBlobClient(filename);
+
+            blobClient.Upload(file.OpenReadStream());
+            return filename;
         }
     }
 }

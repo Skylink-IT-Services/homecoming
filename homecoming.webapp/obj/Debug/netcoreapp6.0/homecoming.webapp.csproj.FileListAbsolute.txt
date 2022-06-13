@@ -106,3 +106,8 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\obj\Debug\netcoreapp6.0\ref\homecoming.webapp.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\obj\Debug\netcoreapp6.0\homecoming.webapp.pdb
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\obj\Debug\netcoreapp6.0\homecoming.webapp.genruntimeconfig.cache
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Azure.Storage.Blobs.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Azure.Storage.Common.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\System.IO.Hashing.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\System.Memory.Data.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.WindowsAzure.Storage.dll
