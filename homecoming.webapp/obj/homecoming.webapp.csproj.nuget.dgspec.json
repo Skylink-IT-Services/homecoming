@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Azure.Storage.Blobs": {
               "target": "Package",
@@ -71,17 +71,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             },
             "Microsoft.Identity.Web": {
               "target": "Package",
@@ -117,7 +117,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[3.1.21, 3.1.21]"
             }
           ],
           "frameworkReferences": {
@@ -151,15 +151,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\homecoming.api.csproj": {
                 "projectPath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\homecoming.api.csproj"
@@ -174,8 +174,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
@@ -183,11 +183,11 @@
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
@@ -195,11 +195,11 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[5.0.15, )"
+              "version": "[3.1.17, )"
             }
           },
           "imports": [
@@ -215,7 +215,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[3.1.21, 3.1.21]"
             }
           ],
           "frameworkReferences": {
