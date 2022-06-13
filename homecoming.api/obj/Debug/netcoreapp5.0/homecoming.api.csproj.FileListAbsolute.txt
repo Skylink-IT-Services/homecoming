@@ -87,6 +87,7 @@
 /mnt/c/Users/codeD/Desktop/Honours/Software Engineering Project/homecoming.com/homecoming.api/obj/Debug/netcoreapp5.0/ref/homecoming.api.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\appsettings.Development.json
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\appsettings.json
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\aws-beanstalk-tools-defaults.json
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\homecoming.api.exe
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\homecoming.api.deps.json
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\homecoming.api.runtimeconfig.json
@@ -98,6 +99,8 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Azure.Identity.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Azure.Security.KeyVault.Certificates.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Azure.Storage.Blobs.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Azure.Storage.Common.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\EntityFramework.SqlServer.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\EntityFramework.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Humanizer.dll
@@ -138,8 +141,11 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.Data.SqlClient.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.IO.Hashing.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.Memory.Data.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.Runtime.Caching.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\Microsoft.WindowsAzure.Storage.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -157,7 +163,6 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.csproj.AssemblyReference.cache
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.AssemblyInfoInputs.cache
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.AssemblyInfo.cs
@@ -172,4 +177,3 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\ref\homecoming.api.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.pdb
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\obj\Debug\netcoreapp5.0\homecoming.api.genruntimeconfig.cache
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\bin\Debug\netcoreapp5.0\aws-beanstalk-tools-defaults.json
