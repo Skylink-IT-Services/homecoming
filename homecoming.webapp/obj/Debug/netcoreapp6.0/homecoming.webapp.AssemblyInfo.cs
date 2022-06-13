@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-homecoming.webapp-69C63B2D-E3BE-42A0-9DB3-97C78833D8D8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("homecoming.webapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

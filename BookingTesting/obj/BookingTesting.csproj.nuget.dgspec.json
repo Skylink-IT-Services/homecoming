@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "netcoreapp6.0",
             "projectReferences": {
               "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\homecoming.api.csproj": {
                 "projectPath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.com\\homecoming.api\\homecoming.api.csproj"
@@ -46,8 +46,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "netcoreapp6.0",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -104,15 +104,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "netcoreapp6.0",
             "projectReferences": {}
           }
         },
@@ -123,8 +123,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "netcoreapp6.0",
           "dependencies": {
             "Azure.Storage.Blobs": {
               "target": "Package",
@@ -140,11 +140,11 @@
             },
             "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
               "target": "Package",
-              "version": "[3.1.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -152,17 +152,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.Identity.Web": {
               "target": "Package",
@@ -195,12 +195,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using homecoming.api.Model;
 
 namespace homecoming.api.Migrations
 {
     [DbContext(typeof(HomecomingDbContext))]
-    partial class HomecomingDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220613141843_app")]
+    partial class app
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -21,7 +21,6 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Humanizer.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\System.Net.Http.Formatting.dll
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Authentication.AzureAD.UI.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
@@ -29,8 +28,6 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -111,3 +108,4 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homec
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\System.IO.Hashing.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\System.Memory.Data.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.WindowsAzure.Storage.dll
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.webapp\bin\Debug\netcoreapp6.0\Microsoft.Extensions.FileProviders.Embedded.dll

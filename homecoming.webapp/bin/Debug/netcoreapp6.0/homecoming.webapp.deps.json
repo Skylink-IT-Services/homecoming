@@ -11,7 +11,7 @@
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.5",
-          "Microsoft.AspNetCore.Identity.UI": "3.1.17",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
           "homecoming.api": "1.0.0"
@@ -153,41 +153,37 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.AzureAD.UI/3.1.17": {
+      "Microsoft.AspNetCore.Authentication.AzureAD.UI/6.0.5": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
-          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.5"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {
-            "assemblyVersion": "3.1.17.0",
-            "fileVersion": "3.100.1721.31808"
-          },
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {
-            "assemblyVersion": "3.1.17.0",
-            "fileVersion": "3.100.1721.31808"
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.5": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.2"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.52605"
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.5": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.2"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.52605"
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
@@ -233,24 +229,15 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/3.1.17": {
+      "Microsoft.AspNetCore.Identity.UI/6.0.5": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "3.1.17",
-          "Microsoft.Extensions.Identity.Stores": "6.0.5",
-          "Newtonsoft.Json": "12.0.2"
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.5",
+          "Microsoft.Extensions.Identity.Stores": "6.0.5"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V3.dll": {
-            "assemblyVersion": "3.1.17.0",
-            "fileVersion": "3.100.1721.31808"
-          },
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V4.dll": {
-            "assemblyVersion": "3.1.17.0",
-            "fileVersion": "3.100.1721.31808"
-          },
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll": {
-            "assemblyVersion": "3.1.17.0",
-            "fileVersion": "3.100.1721.31808"
+          "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.522.21802"
           }
         }
       },
@@ -446,14 +433,20 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.17": {
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/3.1.17": {
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.5": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.17"
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.522.21802"
+          }
         }
       },
       "Microsoft.Extensions.Identity.Core/6.0.5": {
@@ -528,8 +521,8 @@
           "Azure.Identity": "1.3.0",
           "Azure.Security.KeyVault.Certificates": "4.1.0",
           "Azure.Security.KeyVault.Secrets": "4.1.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
-          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.5",
           "Microsoft.Identity.Client": "4.30.0",
           "Microsoft.IdentityModel.Logging": "6.10.2",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.2",
@@ -1591,7 +1584,7 @@
           "Azure.Storage.Blobs": "12.12.0",
           "EntityFramework": "6.4.4",
           "Microsoft.AspNet.Identity.Core": "2.2.3",
-          "Microsoft.AspNetCore.Authentication.AzureAD.UI": "3.1.17",
+          "Microsoft.AspNetCore.Authentication.AzureAD.UI": "6.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.23",
           "Microsoft.EntityFrameworkCore": "6.0.5",
@@ -1684,26 +1677,26 @@
       "path": "microsoft.aspnet.webapi.client/5.2.7",
       "hashPath": "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.AzureAD.UI/3.1.17": {
+    "Microsoft.AspNetCore.Authentication.AzureAD.UI/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T8y+hfvggFYZO93qlTNkfBvcmBIkaY98359kqQJ54h+LSFRzm8arDjk/CgjiBUn0JvCsjXNKN6eybV/o1C9sbQ==",
-      "path": "microsoft.aspnetcore.authentication.azuread.ui/3.1.17",
-      "hashPath": "microsoft.aspnetcore.authentication.azuread.ui.3.1.17.nupkg.sha512"
+      "sha512": "sha512-KZ/ESgtUYL9MK+bJsj9Q00d6L7R7KXQZGGvI9ZecVW6oExlVulCwz6FqyjTjyZxFzY5xTh9LuaBe0yx1ZhNZEA==",
+      "path": "microsoft.aspnetcore.authentication.azuread.ui/6.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.azuread.ui.6.0.5.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-26WlfJsOB4QP3VsEVu5GGDSGm5wu6ikQqRUOaZ3BUmyGcMWsD28xFxPxFw4OszYgKpj54QYlyec19KcrEGkqDw==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.0",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512"
+      "sha512": "sha512-E+/t8R6peNEWM+O6A2J3b7wzZzX6oAaKmphHA4Y1EDyjPtdabYnBsIqyG3eKoBKdIRmeR7xuds+F1aUN0i1DrQ==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YzUMJYSVWEEQmHpOhEzOcZ2/ltQ/uP1s8DHK8oaobgsjKUdIeRvEwtVQ5D6zO0vdlj4j9Mw0JD1FrZPGI07fHw==",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/5.0.0",
-      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512"
+      "sha512": "sha512-VOAJ7kvhY7AIcrg3A2l+SBRjEk8SDPoSNK0OSdaDsi3d+w2IwRXsyNnFdVIFcZcVD9hVCguWtgoTG9K10QYiLw==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/6.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.6.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.5": {
       "type": "package",
@@ -1733,12 +1726,12 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.5",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.5.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.UI/3.1.17": {
+    "Microsoft.AspNetCore.Identity.UI/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hAWjEyAvr4czqXqOMjcsm++ETw4mOiwqWcIT163NDj9cirz6QuLpnNNa9WI7FYJnndl+EmZ7o8BLzLVdlo36bw==",
-      "path": "microsoft.aspnetcore.identity.ui/3.1.17",
-      "hashPath": "microsoft.aspnetcore.identity.ui.3.1.17.nupkg.sha512"
+      "sha512": "sha512-z3A4e+zrH2t7C7HWVyNyDhD0bKO1447I3HB5tEXJOtzxHT20j++/N/3qfSoRJUt9GShGZcObfxKs552243JSvw==",
+      "path": "microsoft.aspnetcore.identity.ui/6.0.5",
+      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/3.1.23": {
       "type": "package",
@@ -1873,19 +1866,19 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.17": {
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mewqqZtZidqSKUE7anay0k4PfahoP+3qo7jt1tmXX5PdaLoK0zq6SnKeZW536yGuoFG87B0EQ3WTN2sxcI8eig==",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.17",
-      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.17.nupkg.sha512"
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Embedded/3.1.17": {
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-obXG1aEUXSomJDAKTenkUcvsUbWc8ZnfnYz/rRXzeHzb2PvuywKj3w6zzH7UfLkH0bImLsKiDFUu4Kft+o3LKQ==",
-      "path": "microsoft.extensions.fileproviders.embedded/3.1.17",
-      "hashPath": "microsoft.extensions.fileproviders.embedded.3.1.17.nupkg.sha512"
+      "sha512": "sha512-z7M3GpcYfKw1FYUGcurTbv/v0ZZ95LSMOZOjOtYLUztzUIUZZ61H5NFjLXjeQ8G72zxrVrt+jubb4MZGvm0EQw==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.5",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/6.0.5": {
       "type": "package",
